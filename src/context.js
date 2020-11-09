@@ -3,7 +3,7 @@ import React from 'react';
 export default React.createContext({
   video: [
     "/fitness/video/day6.mp4",
-    "/fitness/video/day6.mp4",
+    null,
     "/fitness/video/day1.mp4",
     "/fitness/video/day2.mp4",
     null,
