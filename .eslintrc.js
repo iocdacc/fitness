@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     'alloy',
+    'react',
   ],
   env: {
     // Your environments (which contains several predefined global variables)

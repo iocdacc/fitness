@@ -1,0 +1,18 @@
+.group{position:fixed;top:0;left:0;right:0;bottom:0;margin:auto;width:300px;height:500px;}
+.group li{font-size: 2rem;margin-bottom: 25px;}
+.group .group-item{width:100px;float: left;text-align: right;padding: 0 2%;color: black;}
+.group .group-value{width:174px;float: left;font-size: 2rem;padding: 2px 6px;border: 1px solid #bebebe;}
+.group .group-button{font-size:28px;margin:0 auto;display:block;padding:4px 20px;line-height:1.5715;border:0;background-color:#1890ff;color:white;}
+
+.ready{position:fixed;top:0;left:0;right:0;bottom:0;margin:auto;width:50%;height:50%;text-align: center;}
+.ready ul li{font-size: 36px;margin-bottom: 40px;color: #1890ff;}
+.ready ul li.shrink-up{animation: shrink-up 1s;}
+.ready ul li.shrink-up2{animation: shrink-up2 1s;}
+@keyframes shrink-up {
+  from {transform: scale(.5);}
+  to {transform: scale(1);}
+}
+@keyframes shrink-up2 {
+  from {transform: scale(.5);}
+  to {transform: scale(1);}
+}
